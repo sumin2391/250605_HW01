@@ -11,9 +11,9 @@ int sum(int arr[], int 숫자)
     return s;
 };
 
-int average(int arr[], int 숫자) 
+double average(int arr[], int 숫자) 
 {
-    int s = 0;
+    double s = 0;
     for (int i = 0; i < 숫자; i++)
     {
         s += arr[i];
